@@ -1,0 +1,33 @@
+h1{
+    font-size: 60px;
+    font-family: "IBM Plex Mono";
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 20px auto;
+    text-shadow: 3px 3px 1px black;
+}
+p, li{
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: white;
+    
+}
+html{
+    background-color: black;
+}
+body{
+    width: 600px;
+    margin: 10px auto;
+    
+    background-color: brown;
+    padding: 0px 20px 20px 20px;
+    border: 5px solid white;
+}
+.img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 200px;
+  }
