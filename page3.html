@@ -12,9 +12,28 @@
         color: white;
         padding: 10px;
         font-size: 20px;
+        margin: 10px 500px 0px;
     }
     ul{
         color:cornsilk;
+        display: flex;
+        margin: 10px 500px 0px;
+        border-color: greenyellow;
+        border-style: solid;
+    }
+    li{
+        list-style-type: none;
+        padding: 10px;
+        border-color: greenyellow;
+        border-style: solid;
+        margin: 5px;
+    }
+    .myBlock{
+        display: block;
+        border-color: green;
+        border-style: solid;
+        padding: 3px;
+        margin: 3px;
     }
     
 </style>
@@ -29,5 +48,9 @@
             <li>item 3</li>
             <li>item 4</li>
         </ul>
+        <p>this is another paragraph. Some of the
+            <span class="myBlock">words</span>
+            have been wrapped in a span element.
+        </p>
     </body>
 </html>
