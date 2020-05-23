@@ -35,7 +35,7 @@
     .aside { flex: 1 0 0; }
   }
   
-  @media all and (min-width: 800px) {
+  @media all and (main-width: 800px) {
     .main    { flex: 3 0px; }
     .aside1 { order: 1; } 
     .main    { order: 2; }
