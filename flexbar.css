@@ -59,7 +59,7 @@
         flex: 1;
     }
 }
-@media all and (max-width:400px){
+@media all and (max-width:450px){
     .container > li{
         flex: 1 1 100%;
     }
