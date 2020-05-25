@@ -4,11 +4,11 @@
 }
 .navbar{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     background-color: black;
 }
 li{
-    padding: 0.5em;
+    padding: 0.8em;
     list-style: none;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -49,6 +49,12 @@ li:hover{
 .togglearea{
     display: none;
 }
+.logo{
+    margin-right: auto;
+    height: 40px;
+    width: auto;
+    padding: 15px;
+}
 @media all and (max-width:600px){
     .navbar{
         flex-direction: column;
@@ -59,5 +65,15 @@ li:hover{
     }
     .togglearea{
         display: flex;
+    }
+    .mylogo{
+        display: flex;
+        height: 30px;
+        width: auto;
+        margin-right: auto;
+        padding: 8px;
+    }
+    .logo{
+        display: none;
     }
 }
